@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="82d1de28-4378-4202-bbc4-b81b9bace733">
-        <schema name="freelec_springboot2_webservice" object-types="view, function, column, index, table, dataset trigger, procedure, constraint" />
+        <schema name="freelec_springboot2_webservice" object-types="table, view, column, function, procedure, index, constraint, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
@@ -40,6 +40,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="82d1de28-4378-4202-bbc4-b81b9bace733" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="82d1de28-4378-4202-bbc4-b81b9bace733" dataset="freelec_springboot2_webservice.user" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
